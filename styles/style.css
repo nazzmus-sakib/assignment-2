@@ -23,6 +23,9 @@
   color: var(--small-text-color);
 }
 /* nav & header design */
+body {
+  overflow-x: hidden;
+}
 header {
   padding: 50px 220px 30px;
   background-color: rgba(255, 144, 14, 0.1);
@@ -354,6 +357,7 @@ footer {
   }
   .achievments p {
     margin-bottom: 50px;
+    width: 100%;
   }
   .achievment {
     flex-direction: column;
