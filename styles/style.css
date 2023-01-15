@@ -186,6 +186,10 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: transform 0.5s;
+}
+.achievment-box:hover {
+  transform: scale(1.2);
 }
 .achievment-box h3 {
   margin-top: 5px;
@@ -368,6 +372,7 @@ footer {
     height: 100%;
     padding: 25px;
   }
+
   .achievment-box img {
     margin-bottom: 15px;
   }
